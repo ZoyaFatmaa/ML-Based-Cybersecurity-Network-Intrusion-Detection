@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Trained models (can be hundreds of MB, GitHub rejects files over 100 MB)
+*.joblib
+
+# Dataset, download it yourself (see README)
+data/
+dataset/
+MachineLearningCSV/
+MachineLearningCVE/
+TrafficLabelling/
+*.csv
+# ...but keep the small results tables in artifacts/
+!artifacts/*.csv
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
